@@ -56,7 +56,7 @@
       </p>
       <div class="d-grid">
         <button
-          onclick="window.location.reload()"
+          onclick="window.history.length > 1 ? window.history.back() : window.location.href = '/'"
           class="btn btn-dark btn-pill"
           aria-label="Try again">
           Try Again
